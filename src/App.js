@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import React from "react";
+import "./App.css";
+import {Routes , Route} from 'react-router-dom'
+import Editor from "./Componantes/Editor";
+import Login from './Componantes/Login'
+import Home from './Componantes/Home'
+import { app , database} from './Componantes/firebaseConfig';
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className= "app">
+    <h1>  Google Doc clone </h1>
+    <Routes>
+      <Route path='/' element= {<Login />} />
+      <Route path='/home' element= {<Home database={database} />} />
+      <Route path='/editor/:id' element= {<Editor database={database} />} />
+    
+
+
+      </Routes>
     </div>
   );
-}
-
-export default App;
+};
