@@ -1,0 +1,106 @@
+.nev1{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid red; */
+
+}
+.uni{
+    font-size: 1.8rem;
+    margin-top: 12px;
+    margin-right: 13px;
+}
+.star{
+    position: relative;
+    top: 18px;
+    font-size: 1.5rem;
+    
+
+
+}
+.contanier{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    position: relative;
+    top: 30px;
+    right: 280px;
+}
+.menu{
+    padding: 10px;
+    font-size: 1rem;
+    
+
+    
+}
+.rightSide{
+    /* border: 1px solid black; */
+    /* width: 800px; */
+    display: flex;
+    flex-direction: row;
+    /* margin-left: 300px; */
+}
+.meet{
+    /* border: 2px solid blue; */
+    position: relative;
+    left: 240%;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    
+
+}
+.meet:hover{
+    background-color: blanchedalmond;
+
+}
+.share{
+    border: 2px solid green;
+    position: relative;
+    border-radius: 25px;
+    /* padding: 7px; */
+    left: 250%;
+    padding: 8px;
+    margin-top: 1rem;
+    margin-bottom: 18px;
+}
+.share:hover{
+    background-color: blanchedalmond;
+}
+.insert{
+    /* border: 2px solid ; */
+    position: relative;
+    left: 220%;
+    margin-top: 30px;
+    font-size: 4rem;
+    
+}
+.profile{
+    /* border: 2px solid ; */
+    position: relative;
+    /* border: 2px solid; */
+    left: 270%;
+    /* border-radius: 10px; */
+    margin-top: 1.3rem;
+    font-size: 2.5rem;
+
+}
+.bilo{
+    /* border: 2px solid red; */
+    font-size: 1.6rem;
+    padding: 1px;
+
+
+}
+.shr{
+    /* border: 2px solid red; */
+    font-size: 1.2rem;
+    padding: 1px;
+    position: relative;
+    bottom: 6px;
+    /* margin-top: 16px; */
+   
+
+
+}

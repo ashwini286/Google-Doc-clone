@@ -1,0 +1,13 @@
+.contanier{
+    border: 2px solid black;
+    height: 50px;
+}
+.contanier2{
+    border: 2px solid red;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 30px;
+    margin-top: 4px;
+}
+
